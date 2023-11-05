@@ -1,0 +1,132 @@
+.hulu-home{
+    width: 100%;
+    height: 92%;
+    background-image: url('/Assets/images/main.jpeg');
+    background-size: contain;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+    background-color:transparent;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hulu-logo{
+    margin:0 0 0 2.5%;
+    position: relative;
+    width: 5%;
+    height: 70%;
+}
+
+.login{
+    margin:0 2.5% 0 0;
+    font-family: Graphik,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: darkgray;
+    background: transparent;
+    }
+
+.flex-container-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+}
+.bundle{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+
+
+.bundle >ul{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+.duo >ul{
+
+}
+
+.trio > ul{
+    
+}
+.bundle > ul> li:nth-child(1){
+    color: #1ce783;
+    font-weight: bold;
+   font-family: Graphik,Helvetica,Arial,sans-serif;
+
+
+}
+
+.bundle>ul>li:nth-child(3){
+    color: white;
+   font-family: Graphik,Helvetica,Arial,sans-serif;
+   font-size: 25px ;
+   text-align: center;
+    font-weight: bold;
+}
+
+.bundle>ul>li:nth-child(2){
+    width: 50%;
+    height: 20%;
+}
+
+.bundle>ul>li:nth-child(4){
+    background-color: #1ce783;
+    width: 50%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.bundle>ul>li:nth-child(4)>button{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-family: Graphik,Helvetica,Arial,sans-serif;
+}
+
+.bundle>ul>li:nth-child(4):hover{
+    opacity: 70%;
+    transition: 500ms;
+}
+
+.terms{
+    height: 15%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.terms > a {
+    color: white;
+    font-family: Graphik,Helvetica,Arial,sans-serif;
+    text-decoration: underline;
+}
+
+.terms > a:hover {
+    opacity: 70%;
+}
+
+.terms-apply{
+    font-size: medium;
+}
+
+.sign-up{
+    font-weight: bold;
+
+}
