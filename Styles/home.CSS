@@ -356,5 +356,87 @@
 }
 
 .select-plan{
+    width: 100%;
+    height: 90%;
    
+}
+
+.select{
+    height: 30%;
+    
+}
+
+.select > p:nth-child(1){
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family: Graphik,Helvetica,Arial,sans-serif;
+}
+
+.select > p:nth-child(2){
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.empty-line{
+    background-color: white;
+    width: 70%;
+    height: 0.5px;
+    opacity: 70%;
+
+}
+
+.base-plans{
+    width: 20%;
+    color: white;
+}
+
+.base-plans2{
+    width: 20%;
+    margin-top: 10%;
+}
+.switch{
+    width: 70%;
+    height: 150%;
+    justify-content:space-around;
+
+}
+
+.popular{
+    width:100%;
+    border-radius: 7px;
+    text-align: center;
+    background-color: #1ce783;
+
+}
+
+.with-ads{
+    height: 100%;
+    justify-content: space-around;
+
+}
+.with-ads > button{
+    width: 250px;
+    height: 40px;
+    border-radius: 3px;
+
+}
+
+.with-ads > p:nth-child(2){
+    color: white;
+    text-align: center;
+    font-family: Graphik,Helvetica,Arial,sans-serif;
+};
+
+
+.base{
+    height: 100vh;
+}
+
+.monthly-price{
+    justify-content: space-around;
+    width:80% ;
+    color: white;
+    font-family: Graphik,Helvetica,Arial,sans-serif;
 }
